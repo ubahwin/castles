@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7B8624C2ADD923F00223374 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862352ADD923F00223374 /* GameView.swift */; };
+		B7B8624D2ADD923F00223374 /* Level.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B862362ADD923F00223374 /* Level.sks */; };
+		B7B8624E2ADD923F00223374 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862372ADD923F00223374 /* GameScene.swift */; };
+		B7B8624F2ADD923F00223374 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862382ADD923F00223374 /* MenuView.swift */; };
+		B7B862502ADD923F00223374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B8623A2ADD923F00223374 /* Assets.xcassets */; };
+		B7B862512ADD923F00223374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B8623C2ADD923F00223374 /* Preview Assets.xcassets */; };
+		B7B862522ADD923F00223374 /* CastlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8623E2ADD923F00223374 /* CastlesApp.swift */; };
+		B7B862532ADD923F00223374 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862412ADD923F00223374 /* Repository.swift */; };
+		B7B862542ADD923F00223374 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862422ADD923F00223374 /* Game.swift */; };
+		B7B862552ADD923F00223374 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862442ADD923F00223374 /* Timer.swift */; };
+		B7B862562ADD923F00223374 /* SimpleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862452ADD923F00223374 /* SimpleTimer.swift */; };
+		B7B862572ADD923F00223374 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862472ADD923F00223374 /* Warrior.swift */; };
+		B7B862582ADD923F00223374 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862482ADD923F00223374 /* Castle.swift */; };
+		B7B862592ADD923F00223374 /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862492ADD923F00223374 /* Road.swift */; };
+		B7B862732ADD93CA00223374 /* CastlesGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862722ADD93CA00223374 /* CastlesGameTests.swift */; };
+		B7B8627A2ADD93EA00223374 /* SimpleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B862792ADD93EA00223374 /* SimpleTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B862742ADD93CA00223374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B862172ADD922B00223374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B8621E2ADD922B00223374;
+			remoteInfo = Castles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7B8621F2ADD922B00223374 /* Castles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B862352ADD923F00223374 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B7B862362ADD923F00223374 /* Level.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level.sks; sourceTree = "<group>"; };
+		B7B862372ADD923F00223374 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B7B862382ADD923F00223374 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B7B8623A2ADD923F00223374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B8623C2ADD923F00223374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7B8623D2ADD923F00223374 /* Castles.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Castles.entitlements; sourceTree = "<group>"; };
+		B7B8623E2ADD923F00223374 /* CastlesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastlesApp.swift; sourceTree = "<group>"; };
+		B7B862412ADD923F00223374 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B7B862422ADD923F00223374 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B7B862442ADD923F00223374 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		B7B862452ADD923F00223374 /* SimpleTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTimer.swift; sourceTree = "<group>"; };
+		B7B862472ADD923F00223374 /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		B7B862482ADD923F00223374 /* Castle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
+		B7B862492ADD923F00223374 /* Road.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+		B7B862702ADD93CA00223374 /* CastlesGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastlesGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B862722ADD93CA00223374 /* CastlesGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastlesGameTests.swift; sourceTree = "<group>"; };
+		B7B862792ADD93EA00223374 /* SimpleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B8621C2ADD922B00223374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B8626D2ADD93CA00223374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7B862162ADD922B00223374 = {
+			isa = PBXGroup;
+			children = (
+				B7B862342ADD923F00223374 /* Castles */,
+				B7B8623F2ADD923F00223374 /* CastlesGame */,
+				B7B862712ADD93CA00223374 /* CastlesGameTests */,
+				B7B862202ADD922B00223374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B862202ADD922B00223374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8621F2ADD922B00223374 /* Castles.app */,
+				B7B862702ADD93CA00223374 /* CastlesGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B862342ADD923F00223374 /* Castles */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862352ADD923F00223374 /* GameView.swift */,
+				B7B862362ADD923F00223374 /* Level.sks */,
+				B7B862372ADD923F00223374 /* GameScene.swift */,
+				B7B862382ADD923F00223374 /* MenuView.swift */,
+				B7B8623E2ADD923F00223374 /* CastlesApp.swift */,
+				B7B862392ADD923F00223374 /* Resourses */,
+			);
+			path = Castles;
+			sourceTree = "<group>";
+		};
+		B7B862392ADD923F00223374 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8623D2ADD923F00223374 /* Castles.entitlements */,
+				B7B8623A2ADD923F00223374 /* Assets.xcassets */,
+				B7B8623B2ADD923F00223374 /* Preview Content */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		B7B8623B2ADD923F00223374 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8623C2ADD923F00223374 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7B8623F2ADD923F00223374 /* CastlesGame */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862402ADD923F00223374 /* Repository */,
+				B7B862422ADD923F00223374 /* Game.swift */,
+				B7B862432ADD923F00223374 /* Timer */,
+				B7B862462ADD923F00223374 /* Model */,
+			);
+			path = CastlesGame;
+			sourceTree = "<group>";
+		};
+		B7B862402ADD923F00223374 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862412ADD923F00223374 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B7B862432ADD923F00223374 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862442ADD923F00223374 /* Timer.swift */,
+				B7B862452ADD923F00223374 /* SimpleTimer.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		B7B862462ADD923F00223374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862472ADD923F00223374 /* Warrior.swift */,
+				B7B862482ADD923F00223374 /* Castle.swift */,
+				B7B862492ADD923F00223374 /* Road.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7B862712ADD93CA00223374 /* CastlesGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B862722ADD93CA00223374 /* CastlesGameTests.swift */,
+				B7B862792ADD93EA00223374 /* SimpleTimerTests.swift */,
+			);
+			path = CastlesGameTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B8621E2ADD922B00223374 /* Castles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B8622E2ADD922D00223374 /* Build configuration list for PBXNativeTarget "Castles" */;
+			buildPhases = (
+				B7B8621B2ADD922B00223374 /* Sources */,
+				B7B8621C2ADD922B00223374 /* Frameworks */,
+				B7B8621D2ADD922B00223374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castles;
+			productName = Castles;
+			productReference = B7B8621F2ADD922B00223374 /* Castles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7B8626F2ADD93CA00223374 /* CastlesGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B862762ADD93CA00223374 /* Build configuration list for PBXNativeTarget "CastlesGameTests" */;
+			buildPhases = (
+				B7B8626C2ADD93CA00223374 /* Sources */,
+				B7B8626D2ADD93CA00223374 /* Frameworks */,
+				B7B8626E2ADD93CA00223374 /* Resources */,
+				B7B8627B2ADE5F6F00223374 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B862752ADD93CA00223374 /* PBXTargetDependency */,
+			);
+			name = CastlesGameTests;
+			productName = CastlesGameTests;
+			productReference = B7B862702ADD93CA00223374 /* CastlesGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B862172ADD922B00223374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B7B8621E2ADD922B00223374 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B7B8626F2ADD93CA00223374 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B7B8621E2ADD922B00223374;
+					};
+				};
+			};
+			buildConfigurationList = B7B8621A2ADD922B00223374 /* Build configuration list for PBXProject "Castles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B862162ADD922B00223374;
+			productRefGroup = B7B862202ADD922B00223374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B8621E2ADD922B00223374 /* Castles */,
+				B7B8626F2ADD93CA00223374 /* CastlesGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B8621D2ADD922B00223374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B862502ADD923F00223374 /* Assets.xcassets in Resources */,
+				B7B862512ADD923F00223374 /* Preview Assets.xcassets in Resources */,
+				B7B8624D2ADD923F00223374 /* Level.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B8626E2ADD93CA00223374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7B8627B2ADE5F6F00223374 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint >/dev/null; then\n  swiftlint --strict --config ../.swiftlint.yml\nelse\n  echo \"error: SwiftLint does not exist\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B8621B2ADD922B00223374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B862532ADD923F00223374 /* Repository.swift in Sources */,
+				B7B8624F2ADD923F00223374 /* MenuView.swift in Sources */,
+				B7B862572ADD923F00223374 /* Warrior.swift in Sources */,
+				B7B862582ADD923F00223374 /* Castle.swift in Sources */,
+				B7B862562ADD923F00223374 /* SimpleTimer.swift in Sources */,
+				B7B8624C2ADD923F00223374 /* GameView.swift in Sources */,
+				B7B8624E2ADD923F00223374 /* GameScene.swift in Sources */,
+				B7B862552ADD923F00223374 /* Timer.swift in Sources */,
+				B7B862522ADD923F00223374 /* CastlesApp.swift in Sources */,
+				B7B862592ADD923F00223374 /* Road.swift in Sources */,
+				B7B862542ADD923F00223374 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B8626C2ADD93CA00223374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B862732ADD93CA00223374 /* CastlesGameTests.swift in Sources */,
+				B7B8627A2ADD93EA00223374 /* SimpleTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B862752ADD93CA00223374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B8621E2ADD922B00223374 /* Castles */;
+			targetProxy = B7B862742ADD93CA00223374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7B8622C2ADD922D00223374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B8622D2ADD922D00223374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B7B8622F2ADD922D00223374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P47CZ87RVS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubahwin.Castles;
+				PRODUCT_NAME = Castles;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B862302ADD922D00223374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P47CZ87RVS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubahwin.Castles;
+				PRODUCT_NAME = Castles;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7B862772ADD93CA00223374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P47CZ87RVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubahwin.CastlesGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castles";
+			};
+			name = Debug;
+		};
+		B7B862782ADD93CA00223374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P47CZ87RVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ubahwin.CastlesGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Castles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Castles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B8621A2ADD922B00223374 /* Build configuration list for PBXProject "Castles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B8622C2ADD922D00223374 /* Debug */,
+				B7B8622D2ADD922D00223374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B8622E2ADD922D00223374 /* Build configuration list for PBXNativeTarget "Castles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B8622F2ADD922D00223374 /* Debug */,
+				B7B862302ADD922D00223374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B862762ADD93CA00223374 /* Build configuration list for PBXNativeTarget "CastlesGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B862772ADD93CA00223374 /* Debug */,
+				B7B862782ADD93CA00223374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B862172ADD922B00223374 /* Project object */;
+}
