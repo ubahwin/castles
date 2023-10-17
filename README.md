@@ -3,7 +3,7 @@
 Strategy game in which you need to build roads so as to capture all the castles.
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; column-gap: 24px; row-gap: 20px;">
-  <span><img src="img/1.jpg" style="width:200px;"></span>
+  <span><img src="img/1.jpg" style="width:500px;"></span>
 
 </div>
 
